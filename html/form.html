@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=,, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <label for="fullname">Nome Completo: </label>
+        <input id="fullname" name="fullname" type="text" required />
+      </div>
+
+      <div>
+        <label for="email">E-mail: </label>
+        <input id="email" name="email" type="email" required />
+      </div>
+
+      <div>
+        <label for="birthDate">Data de nascimento</label>
+        <input id="birthDate" name="birthDate" type="date" required />
+      </div>
+
+      <div>
+        <label for="password">Senha: </label>
+        <input
+          id="password"
+          name="password"
+          type="password"
+          minlength="6"
+          required
+        />
+      </div>
+
+      <div>
+        <label>Genero</label>
+        <div>
+          <input id="male" name="gender" type="radio" />
+          <label for="male">Masculino</label>
+        </div>
+
+        <div>
+          <input id="female" name="gender" type="radio" />
+          <label for="female">Feminino</label>
+        </div>
+      </div>
+
+      <div>
+        <label>Pet</label>
+        <div>
+          <input id="dog" name="dog" type="checkbox" />
+          <label for="dog">Cachorro</label>
+        </div>
+        <div>
+          <input id="cat" name="cat" type="checkbox" />
+          <label for="cat">Gato</label>
+        </div>
+      </div>
+
+      <div>
+        <label>Carro</label>
+        <div>
+          <select name="car">
+            <option value="Mercerdes">Mercerdes</option>
+            <option value="Ferrari">Ferrari</option>
+            <option value="Honda">Honda</option>
+          </select>
+        </div>
+      </div>
+
+      <div>
+        <label>Sobre min</label>
+
+        <div>
+          <textarea name="abouteMe" id=""></textarea>
+        </div>
+      </div>
+
+      <div>
+        <input type="submit" value="Finalizar" required />
+        <input type="reset" value="Limpar" />
+      </div>
+    </form>
+  </body>
+</html>

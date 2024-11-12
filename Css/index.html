@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Crie uma conta</h2>
+    </header>
+
+    <form class="container">
+      <div class="form-row">
+        <label for="fullname" class="form-label">Nome Completo</label>
+        <input
+          type="fullname"
+          id="text"
+          class="form-input"
+          placeholder="Digite sua senha"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="email" class="form-label">Email</label>
+        <input
+          type="email"
+          id="email"
+          class="form-input"
+          placeholder="Digite seu Email"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="password" class="form-label">Senha</label>
+        <input
+          type="password"
+          id="password"
+          class="form-input"
+          placeholder="Digite sua senha"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="birthDate" class="form-label">Data de nascimento</label>
+        <input type="date" id="date" class="form-input" />
+      </div>
+
+      <div>
+        <label>Género</label>
+        <select name="gender" class="form-input">
+          <option value="masculino">Masculino</option>
+          <option value="Feminino">Feminino</option>
+        </select>
+      </div>
+
+      <div class="form-small">
+        <input id="privacyTerms" type="checkbox" />
+        <label for="privacyTerms"> Aceito as politicas de privacidade </label>
+      </div>
+
+      <button type="submit" class="form-button">Cadastrar</button>
+    </form>
+  </body>
+</html>
